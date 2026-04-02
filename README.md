@@ -63,6 +63,23 @@ Get the code:
 npx create-react-router@latest --template janhesters/react-router-saas-template
 ```
 
+### Use This Repository as an AIDD Scaffold
+
+This repository now includes a root `SCAFFOLD-MANIFEST.yml`, so it can be validated
+and used as an AIDD scaffold source.
+
+Validate the scaffold:
+
+```bash
+npx aidd verify-scaffold file:///absolute/path/to/react-saas-scaffold
+```
+
+Create a project from a released version of this scaffold:
+
+```bash
+npx aidd create https://github.com/paralleldrive/react-saas-scaffold my-app
+```
+
 ### Installation
 
 Install the dependencies:
