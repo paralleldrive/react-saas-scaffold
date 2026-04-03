@@ -1,0 +1,3 @@
+steps:
+  - run: cp .env.example .env
+  - run: npm install
